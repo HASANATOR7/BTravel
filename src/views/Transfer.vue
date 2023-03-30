@@ -86,7 +86,7 @@ export default {};
 <style lang="scss">
 .header_transfer {
   background: #1c9fe3;
-  width: 1440px;
+  width: 100%;
   height: 120px;
 }
 

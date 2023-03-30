@@ -70,11 +70,11 @@ button {
 }
 .body2 {
   background: #f6f6f6;
-  width: 1440px;
+  // width: 1440px;
 }
 .container {
   width: 1180px;
-  margin-left: 130px;
+  margin: 0 auto;
   
 }
 
@@ -87,15 +87,16 @@ ul {
   padding: 0;
 }
 body {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
+  // margin: 0 auto;
+  // display: flex;
+  // justify-content: center;
   background: #aaaaaa;
 }
 .header {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   z-index: 2;
+  left: 0;
 
   &__list {
     display: flex;

@@ -173,8 +173,8 @@ export default {};
 <style lang="scss">
 .tour {
   background: url(../assets/tour/tour_bg.png);
-  width: 1440px;
-  height: 740px;
+  background-size: cover;
+  height: 100vh;
 
   &_text {
     width: 558px;

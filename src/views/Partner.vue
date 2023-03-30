@@ -1,6 +1,7 @@
 <template>
   <section class="partner">
-    <div class="cotainer">
+    <div class="partner__wrapper">
+      <div class="container">
       <div class="partner_content">
         <div class="partner_left">
           <h2 class="partner_text">С нами вы построите отличную карьеру</h2>
@@ -17,6 +18,7 @@
           />
         </div>
       </div>
+    </div>
     </div>
   </section>
   <section class="blocks">
@@ -132,9 +134,15 @@ body {
 .partner {
   background: url(../assets/Partner/parther_logo.png);
   height: 740px;
-  width: 1440px;
+
   background-size: cover;
   background-position: center;
+
+  &__wrapper {
+    background: linear-gradient(180deg, rgba(41, 43, 55, 0) 42%, #1b1d29 95%);
+    border-radius: 0px 0px 16px 16px;
+    position: relative;
+  }
 
   &_text {
     width: 578px;
@@ -148,15 +156,8 @@ body {
 
   &_content {
     display: flex;
-    justify-content: center;
     padding-top: 174px;
-    position: absolute;
-    width: 1440px;
     height: 565px;
-    top: 0px;
-    background: linear-gradient(180deg, rgba(41, 43, 55, 0) 42%, #1b1d29 95%);
-    filter: drop-shadow(0px 11px 29px rgba(8, 15, 22, 0.25));
-    border-radius: 0px 0px 16px 16px;
   }
 
   &_span {
@@ -192,6 +193,9 @@ body {
     width: 628px;
     height: 566px;
     border-radius: 16px;
+    position: absolute;
+    bottom: 0;
+    filter: drop-shadow(0px 11px 29px rgba(8, 15, 22, 0.25));
   }
 }
 

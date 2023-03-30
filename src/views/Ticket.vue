@@ -244,7 +244,7 @@ body {
 }
 .header_ticket {
   background: #1c9fe3;
-  width: 1440px;
+  width: 100%;
   height: 120px;
 }
 

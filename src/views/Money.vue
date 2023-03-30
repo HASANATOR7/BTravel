@@ -148,13 +148,13 @@ export default {};
 <style lang="scss">
 .header_money {
   background: #1c9fe3;
-  width: 1440px;
+  width: 100%;
   height: 120px;
   position: absolute;
 }
 
 .money {
-  width: 1440px;
+  // width: 1440px;
   height: 740px;
   background: #f6f6f6;
   background: linear-gradient(180deg, rgba(246, 246, 246, 0) 42%, #50cdcd 95%);

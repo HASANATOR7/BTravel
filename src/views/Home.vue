@@ -445,8 +445,7 @@ export default {};
 
 <style lang="scss">
 .hero {
-  width: 1440px;
-  height: 860px;
+  height: 100vh;
   background: url(../assets/Homepage/hero/img_bg.svg);
   background-size: cover;
   background-position: center;
@@ -957,7 +956,6 @@ export default {};
 }
 
 .footer {
-  width: 1440px;
   height: 454px;
   background: #1c9fe3;
 
